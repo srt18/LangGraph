@@ -10,10 +10,10 @@ Building langgraph concepts and end to end pipelines for Agentic AI
 
 ## When to use what? 
 - LangChain
-    -->Building simple, linear workflow - like prompt chain, summarize, or basic retrieval system.
+    - Building simple, linear workflow - like prompt chain, summarize, or basic retrieval system.
 
 - LangGraph
-    -->Use case involce complex, non-linear workflows that need:
+    - Use case involce complex, non-linear workflows that need:
         1. Conditional path
         2. Loops
         3. Human-in-the-loop steps
@@ -24,8 +24,8 @@ Building langgraph concepts and end to end pipelines for Agentic AI
 - Yes, LangGraph is built on the top of langChain it doesn't replace it.
 - Still need to use langChain components
 
--➡️LangGraph handles " Workflow orchestration "
--➡️LangChain provides " Building blocks for each step in the workflow "
+- ➡️LangGraph handles " Workflow orchestration "
+- ➡️LangChain provides " Building blocks for each step in the workflow "
 
 ## Common Workflow
 - Prompt chaining
