@@ -48,7 +48,7 @@ Building langgraph concepts and end to end pipelines for Agentic AI
     1. Define how update for nodes are applied
     2. Each key is state can have it own reducers, which determine whether new data replaces, merges, or add to the existing value
 
-# LnagGraph Execution Model
+# LangGraph Execution Model
 1. Graph
     - State schema
     - Node
@@ -65,3 +65,4 @@ Building langgraph concepts and end to end pipelines for Agentic AI
     - Execution stops when:
         1. No nodes are active
         2. No messages are in transit
+
