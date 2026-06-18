@@ -10,10 +10,10 @@ Building langgraph concepts and end to end pipelines for Agentic AI
 
 ## When to use what? 
 - LangChain
-    ➡️Building simple, linear workfloe - like prompt chain, summarize, or basic retrieval system.
+    -->Building simple, linear workflow - like prompt chain, summarize, or basic retrieval system.
 
 - LangGraph
-    ➡️Use case involce complex, non-linear workflows that need:
+    -->Use case involce complex, non-linear workflows that need:
         1. Conditional path
         2. Loops
         3. Human-in-the-loop steps
@@ -24,8 +24,8 @@ Building langgraph concepts and end to end pipelines for Agentic AI
 - Yes, LangGraph is built on the top of langChain it doesn't replace it.
 - Still need to use langChain components
 
-➡️LangGraph handles " Workflow orchestration "
-➡️LangChain provides " Building blocks for each step in the workflow "
+-➡️LangGraph handles " Workflow orchestration "
+-➡️LangChain provides " Building blocks for each step in the workflow "
 
 ## Common Workflow
 - Prompt chaining
@@ -44,8 +44,9 @@ Building langgraph concepts and end to end pipelines for Agentic AI
     1. Accesible --> Nodes
     2. Mutable
 
-- Reducers --> Define how update for nodes are applied
-           --> Each key is state can have it own reducers, which determine whether new data replaces, merges, or add to the existing value
+- Reducers 
+    1. Define how update for nodes are applied
+    2. Each key is state can have it own reducers, which determine whether new data replaces, merges, or add to the existing value
 
 # LnagGraph Execution Model
 1. Graph
@@ -62,5 +63,5 @@ Building langgraph concepts and end to end pipelines for Agentic AI
     - Nodes that receive messages become active for next round
 6. Halting Conditions
     - Execution stops when:
-        -> No nodes are active
-        -> No messages are in transit
+        1. No nodes are active
+        2. No messages are in transit
